@@ -15,7 +15,7 @@ function checkInput()
     {
         alert("姓名不能为空！");
     }
-    else if (!check_phone && !check_email)
+    else if (check_phone && check_email)
     {
         alert("提交成功！");
     }
