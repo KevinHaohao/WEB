@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的通讯录</title>
+    <script src="Function.js"></script>
+    <style>
+        h1 {text-align:center;}
+        .btn-group button {
+            width: 100px;
+            height: 40px;
+            background-color:	#C0C0C0;
+            border: 2px;
+            color:#696969;
+            padding: 7px 18px;
+            cursor: pointer;
+            float: left;
+        }
+
+        .btn-group:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .btn-group button:not(:last-child) {
+            border-right: none;
+        }
+
+        .btn-group button:hover {
+            background-color: dodgerblue;
+        }
+        table,th,td
+        {
+            border: solid black;
+        }
+        table
+        {
+            width:100%;
+        }
+        th
+        {
+            background-color: #FFDAB9;
+            color:#191970;
+            font-size: 15px;
+            height:70px;
+        }
+        tr
+        {
+            height:50px;
+        }
+        td
+        {
+            background-color:	#E1FFFF;
+            font-size: 13px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+<h1>通讯录</h1>
+<table>
+    <tr>
+        <th>姓名</th>
+        <th>电话</th>
+        <th>邮箱</th>
+        <th>住址</th>
+        <th>QQ号</th>
+    </tr>
+    <tr>
+        <td>蒋浩</td>
+        <td>13882945345</td>
+        <td>jianghao012@foxmail.com</td>
+        <td>四川资阳</td>
+        <td>1585706868</td>
+    </tr>
+    <tr>
+        <td>李阳阳</td>
+        <td>15984512371</td>
+        <td>liyangyang@bupt.edu.cn</td>
+        <td>山东青岛</td>
+        <td>13790068449</td>
+    </tr>
+</table>
+<div class="btn-group" style="width:100%">
+    <button style="width: 178px" onclick="To_Add()">添加</button><br><br>
+    <button style="width: 178px">编辑</button><br><br>
+    <button style="width: 178px">删除</button><br><br>
+</div>
+</body>
+</html>

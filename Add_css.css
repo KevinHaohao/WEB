@@ -1,0 +1,35 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "等线";
+    margin: 0;
+    background-color: #696969;
+}
+#box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin: -150px 0 0 -150px;
+    width: 300px;
+    height: 300px;
+}
+#box h1{
+    color:#F0E68C;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#box p{
+    color:	#F5F5F5;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+}
+p{
+    font-size: 1em;
+    margin: 0.67em 0;
+}
